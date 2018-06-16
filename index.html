@@ -3,12 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <title>Popover</title>
-    <script src="src/index.js"></script>
     <link rel="stylesheet" href="./src/index.css">
 </head>
 <body>
 <div class="container">
-    <button>+</button>
+    <h3>如果感到幸福你就拍拍手</h3>
+    <button class="add_btn" type="button" onclick="showPopover()">拍拍手</button>
 </div>
+<div class="popover">
+    <h4>你快乐吗</h4>
+    <button class=close_btn onclick="hidePopover()">我不快乐</button>
+</div>
+<script type="text/javascript">
+    function showPopover() {
+        var popover = document.getElementsByClassName("popover");
+        var add_btn = document.getElementsByClassName("add_btn");
+        popover[0].style.display = 'block';
+        add_btn.disable = true;
+    }
+
+    function hidePopover() {
+        var popover = document.getElementsByClassName("popover");
+        popover[0].style.display = 'none';
+    }
+</script>
 </body>
 </html>
