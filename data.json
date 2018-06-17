@@ -1,0 +1,15 @@
+[{
+  "showPopover": "showPopover(\"popoverA\")",
+  "popover": "popoverA",
+  "hidePopover": "hidePopover(\"popoverA\")"
+},
+  {
+    "showPopover": "showPopover(\"popoverB\")",
+    "popover": "popoverB",
+    "hidePopover": "hidePopover(\"popoverB\")"
+  },
+  {
+    "showPopover": "showPopover(\"popoverC\")",
+    "popover": "popoverC",
+    "hidePopover": "hidePopover(\"popoverC\")"
+  }]

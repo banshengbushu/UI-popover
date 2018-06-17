@@ -1,23 +1,31 @@
-.container{
+h3 {
+    margin: 10px;
+}
+
+h4 {
+    text-align: center;
+}
+
+.container {
     width: 300px;
-    height: 100px;
     padding-top: 5px;
+    margin-top: 10px;
     background-color: #fae9cf;
     text-align: center;
 }
 
-.popover {
+.popoverA, .popoverB, .popoverC {
     display: none;
     position: relative;
     border: solid 1px #a2aeb5;
     width: 200px;
     height: 100px;
-    margin-left: 7%;
+    margin-left: 15%;
     background-color: #e7eff5;
 }
 
-h4 {
-    text-align: center;
+.add_btn {
+    margin: 10px;
 }
 
 .close_btn {
